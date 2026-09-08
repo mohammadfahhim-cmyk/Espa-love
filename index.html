@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For My Dear hobu bow Espa ❤️</title>
+  <title>For My Hobu Bow Espa ❤️</title>
+
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: linear-gradient(180deg, #fff0f5, #ffe4ec, #fff);
@@ -17,159 +23,289 @@
       text-align: center;
       overflow-x: hidden;
     }
+
     section {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 30px 20px;
+      padding: 35px 20px;
       position: relative;
     }
+
     .heart {
       font-size: 70px;
       animation: heartbeat 1.3s infinite;
       margin-bottom: 20px;
     }
+
     h1 {
       font-size: 35px;
       margin-bottom: 20px;
     }
+
     h2 {
       font-size: 30px;
       margin-bottom: 20px;
     }
+
     p {
       max-width: 650px;
       font-size: 20px;
       line-height: 1.8;
     }
+
     .scroll {
       margin-top: 40px;
-      font-size: 16px;
+      font-size: 17px;
       animation: updown 1.5s infinite;
     }
+
     .sorry {
-      background: rgba(255,255,255,0.65);
+      background: rgba(255,255,255,0.7);
       border-radius: 25px;
       padding: 35px 25px;
+      max-width: 700px;
       box-shadow: 0 10px 35px rgba(120, 30, 60, 0.15);
     }
+
+    .sorry h1 {
+      color: #d6336c;
+    }
+
     .love {
       background: linear-gradient(135deg, #ff758c, #ff7eb3);
       color: white;
     }
+
     .love h1 {
       font-size: 45px;
       animation: zoom 2s infinite alternate;
     }
+
     .name {
-      font-size: 30px;
+      font-size: 32px;
+      font-weight: bold;
       margin-top: 20px;
       animation: glow 1.5s infinite alternate;
     }
+
+    .forgive {
+      margin-top: 30px;
+      font-size: 21px;
+    }
+
     .floating-heart {
       position: fixed;
       bottom: -30px;
       font-size: 25px;
-      animation: float 6s linear infinite;
+      animation: float 6s linear forwards;
       pointer-events: none;
       opacity: 0.8;
+      z-index: 999;
     }
+
     @keyframes heartbeat {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.25); }
+      0%, 100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.25);
+      }
     }
+
     @keyframes updown {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(12px); }
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(12px);
+      }
     }
+
     @keyframes zoom {
-      from { transform: scale(1); }
-      to { transform: scale(1.12); }
+      from {
+        transform: scale(1);
+      }
+
+      to {
+        transform: scale(1.12);
+      }
     }
+
     @keyframes glow {
-      from { text-shadow: 0 0 5px white; }
-      to { text-shadow: 0 0 25px white; }
+      from {
+        text-shadow: 0 0 5px white;
+      }
+
+      to {
+        text-shadow: 0 0 25px white;
+      }
     }
+
     @keyframes float {
       from {
         transform: translateY(0) rotate(0deg);
       }
+
       to {
         transform: translateY(-110vh) rotate(360deg);
       }
     }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 29px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .love h1 {
+        font-size: 36px;
+      }
+
+      .name {
+        font-size: 27px;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <!-- প্রথম পেজ -->
+
+  <!-- প্রথম অংশ -->
   <section>
+
     <div class="heart">❤️</div>
-    <h1>আসসালামু আলাইকুম</h1>
-    <h2>প্রিয় হবু বউ ইস্পা 🥺❤️</h2>
+
+    <h1>Assalamualikum</h1>
+
+    <h2>হবু বউ ইস্পা 🥺❤️</h2>
+
     <p>
       তোমার জন্য ছোট্ট একটা কথা বলার ছিল...
-      তাই এই ছোট্ট ওয়েবসাইটটা বানিয়েছি শুধু তোমার জন্য। 🌸
+      তাই এই ছোট্ট ওয়েবসাইটটা শুধু তোমার জন্য বানিয়েছি। 🌸
     </p>
+
     <div class="scroll">
-      নিচে স্ক্রল করো ↓
+      একটু নিচে স্ক্রল করো ↓
     </div>
+
   </section>
-  <!-- Sorry Section -->
+
+
+  <!-- Sorry অংশ -->
   <section>
+
     <div class="sorry">
+
       <div class="heart">🥺</div>
-      <h1>Really Sorry, আমার হবু বউ ❤️</h1>
+
+      <h1>Really Sorry, আমার হবু বউ ইস্পা ❤️</h1>
+
       <p>
         আমি জানি হয়তো আমার কোনো কথায় বা কাজে তুমি কষ্ট পেয়েছো।
         সত্যি বলছি, তোমাকে কষ্ট দেওয়ার ইচ্ছা আমার কখনোই ছিল না। 💔
+
         <br><br>
+
         যদি আমার কোনো ভুল হয়ে থাকে,
         তাহলে আমাকে ক্ষমা করে দিও। 🥺
+
         <br><br>
+
         তোমার সাথে রাগ করে বা দূরে থেকে থাকতে আমার একদম ভালো লাগে না।
         তুমি আমার কাছে সত্যিই অনেক গুরুত্বপূর্ণ। ❤️
+
         <br><br>
+
         তাই রাগটা একটু কমিয়ে দাও প্লিজ...
         আর তোমার এই পাগল মানুষটাকে ক্ষমা করে দাও। 🫶
+
+        <br><br>
+
+        আমি শুধু চাই তুমি হাসিখুশি থাকো। 🌸
+        তোমার মুখের হাসিটা আমার কাছে অনেক সুন্দর। ❤️
       </p>
+
     </div>
+
   </section>
-  <!-- শেষের Love Section -->
+
+
+  <!-- শেষের অংশ -->
   <section class="love">
+
     <div class="heart">❤️</div>
+
     <h1>I Love You So Much</h1>
+
     <div class="name">
       Bow Jann Espa ❤️
     </div>
-    <p style="margin-top:25px;">
+
+    <div class="forgive">
       Please Don't Be Angry With Me 🥺❤️
-      <br>
-      You Are Very Special To Me 🌸
-    </p>
-    <div style="font-size:50px; margin-top:35px;">
+      <br><br>
+      Please Forgive Me 🌸
+    </div>
+
+    <div style="font-size: 50px; margin-top: 35px;">
       ❤️ 💖 💕 💗 💓
     </div>
+
   </section>
-  <!-- Floating Hearts -->
+
+
+  <!-- Heart Animation -->
   <script>
+
     function createHeart() {
+
       const heart = document.createElement("div");
+
       heart.className = "floating-heart";
-      const hearts = ["❤️", "💖", "💕", "💗", "🌸"];
-      heart.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
-      heart.style.left = Math.random() * 100 + "vw";
+
+      const hearts = [
+        "❤️",
+        "💖",
+        "💕",
+        "💗",
+        "💓",
+        "🌸"
+      ];
+
+      heart.innerHTML =
+        hearts[Math.floor(Math.random() * hearts.length)];
+
+      heart.style.left =
+        Math.random() * 100 + "vw";
+
       heart.style.animationDuration =
         (4 + Math.random() * 4) + "s";
+
       heart.style.fontSize =
         (18 + Math.random() * 25) + "px";
+
       document.body.appendChild(heart);
+
       setTimeout(() => {
         heart.remove();
       }, 8000);
     }
+
     setInterval(createHeart, 700);
+
   </script>
+
 </body>
 </html>
